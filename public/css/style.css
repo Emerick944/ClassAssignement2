@@ -153,12 +153,4 @@ body {
     width: 20rem;
     height: 20rem;
   }
-
-  #affichageImage {
-    position: absolute;
-    left: 328px;
-    top: 111px;
-    width: 686px;
-    height: 233px;
-    z-index: 6;
-    border: 1px solid #FFF;
+}

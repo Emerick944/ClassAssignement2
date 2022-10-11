@@ -19,6 +19,9 @@ app.get('/api/task', (req, res) => {
     if (req.query.value== 'Outside'){
         res.send([{Nom:"Taking out the trash"},{Nom:"To mow the lawn"},{Nom:"Water the plants" }])
     }
+    if (req.query.value== 'Clear'){
+        res.send([{Nom:""},{Nom:""},{Nom:"" }])
+    }
 });
 
 app.listen(port, () => {
